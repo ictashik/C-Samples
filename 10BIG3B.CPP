@@ -1,0 +1,16 @@
+#include "conio.h"
+#include "iostream.h"
+main()
+{
+int a,b,c;
+clrscr();
+cout<<"Enter 3 Numbers : ";
+cin>>a>>b>>c;
+if(a>b && a>c)
+cout<<a;
+else if(b>a && b>c)
+cout<<b;
+else
+cout<<c;
+getch();
+}
